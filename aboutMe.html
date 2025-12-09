@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Me – Light of the Nine</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #111;
+        color: #eee;
+        line-height: 1.6;
+    }
+
+    .banner {
+        position: relative;
+        width: 100%;
+        height: 380px;
+        overflow: hidden;
+    }
+
+    .banner img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center top;
+        filter: brightness(70%);
+    }
+
+    .banner-title {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        transform: translateY(-50%);
+        color: #fff;
+        font-size: 3rem;
+        font-weight: bold;
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.6),
+                     0 0 20px rgba(0, 150, 255, 0.6);
+    }
+
+    .container {
+        max-width: 900px;
+        margin: 40px auto;
+        padding: 0 20px;
+    }
+
+    h2 {
+        margin-top: 40px;
+    }
+
+    .profile-img {
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        object-fit: cover;
+        display: block;
+        margin: 0 auto 25px auto;
+        border: 3px solid #444;
+    }
+
+    .btn {
+        display: inline-block;
+        margin-top: 25px;
+        background: #2c2c2c;
+        padding: 12px 20px;
+        border-radius: 6px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 0.2s;
+    }
+
+    .btn:hover {
+        background: #444;
+    }
+
+    footer {
+        text-align: center;
+        padding: 30px;
+        color: #777;
+    }
+
+    @media (max-width: 600px) {
+        .banner-title {
+            font-size: 2rem;
+        }
+        .banner {
+            height: 260px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<!-- Banner -->
+<div class="banner">
+    <img src="Img/lotn2560x1440.jpg" alt="Banner">
+    <div class="banner-title">About Me</div>
+</div>
+
+<div class="container">
+    <h1>About Me</h1>
+
+    <img class="profile-img" src="Img/profile.png" alt="Developer portrait (placeholder)">
+
+    <p>
+        Hi! I'm Tristan, a VR developer and gameplay programmer based in France. I am specialized in building immersive and intuitive interactive experiences, mostly in Unity, but I also have a strong mastery of C++ and enjoy working with Unreal Engine as well.
+    </p>
+
+    <p>
+        I'm passionate about designing worlds that feel alive, reactive, and meaningful. Whether it's crafting puzzle mechanics, prototyping new interactions, or optimizing gameplay systems, I focus on creating experiences that feel smooth and natural for the player.
+    </p>
+
+    <p>
+        <strong>Light of the Nine</strong> is my latest personal project — a calm, atmospheric VR puzzle game built around light manipulation, exploration, and spatial logic. It's a project that reflects my love for elegant mechanics, worldbuilding, and immersive VR environments.
+    </p>
+
+    <h2>What I Do</h2>
+    <ul>
+        <li>VR development (Unity XR / OpenXR)</li>
+        <li>Gameplay programming (Unity C#, Unreal C++)</li>
+        <li>Interaction systems & prototyping</li>
+        <li>Tech design and UX for VR</li>
+        <li>Tools and systems development for game teams</li>
+    </ul>
+
+    <h2>Links</h2>
+    <a class="btn" href="index.html">Back to the Game</a>
+    <a class="btn" href="https://www.linkedin.com/in/tristan-smalbeen-443681a7/" target="_blank">LinkedIn</a>
+</div>
+
+<footer>
+    © 2025 Light of the Nine
+</footer>
+
+</body>
+</html>
